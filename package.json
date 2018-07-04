@@ -11,13 +11,15 @@
   },
   "dependencies": {
     "axios": "^0.16.2",
+    "prismic-javascript": "^1.5.0",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-hot-loader": "^4.3.3",
     "react-move": "^2.6.0",
     "react-router": "^4.2.0",
     "react-static": "^5.9.7",
-    "recompose": "^0.26.0"
+    "recompose": "^0.26.0",
+    "webfontloader": "^1.6.28"
   },
   "devDependencies": {
     "eslint-config-react-tools": "1.x.x",
