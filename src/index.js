@@ -9,6 +9,13 @@ export default App
 
 // Render your app
 if (typeof document !== 'undefined') {
+  var WebFont = require('webfontloader');
+
+  WebFont.load({
+    google: {
+      families: ['Raleway'],
+    },
+  });
   const renderMethod = module.hot ? ReactDOM.render : ReactDOM.hydrate || ReactDOM.render
   const render = Comp => {
     renderMethod(<Comp />, document.getElementById('root'))
