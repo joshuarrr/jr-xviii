@@ -1,9 +1,21 @@
+@font-face {
+  font-family: 'Publica';
+  src: local('Publica'),
+    url(../public/publica.woff2)
+    format('woff2');
+}
+
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Publica', sans-serif;
   font-weight: 300;
   font-size: 16px;
   margin: 0;
   padding: 0;
+  color: #777;
+  background: #d5d5d5;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: #d5d5d5 0px 1px 1px;
 }
 
 a {
@@ -29,4 +41,12 @@ nav a {
 
 .content {
   padding: 1rem;
+}
+
+/* Home Page */
+.site-logo {
+  width: 5em;
+  margin: 0 auto;
+  position: relative;
+  display: block;
 }
